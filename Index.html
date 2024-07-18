@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!--header section-->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1 class="h1 mb-0">WAINGO RESTAURANT</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#reservations">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Hero Section-->
+    <section id="home" class="hero text-center  d-flex align-items-center" style="height: 100vh no-repeat center center/cover;">
+        <div class="container">
+            <h2>Welcome to Waingo Restaurant</h2>
+            <p>Exotic, delicious food and delightful Ambiance</p>
+            <a href="#reservation" class="btn btn-primary me-2">Reserve A Sit</a>
+            <a href="#menu" class="btn btn-secondary">view menu</a>
+        </div>
+    </section>
+    <!--About us sction-->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn about our mission, vision, goals and why we do what we do</p>
+        </div>
+    </section>
+    <!--Menu Section-->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">OUR MENU</h2>
+            <div class="row">
+
+                <div class="col-md-3 mb-4">
+                    <h3>Starters</h3>
+                    <ul class="list-unstyled">
+                        <li>Omlettee</li>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Full breakfast</li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Main Course</h3>
+                    <ul class="list-unstyled">
+                        <li>Chapati</li>
+                        <li>Ugali</li>
+                        <li>Rice</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Desserts</h3>
+                    <ul class="list-unstyled">
+                        <li>Fruit Salad</li>
+                        <li>Fruit Juice</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Drinks</h3>
+                    <ul class="list-unstyled">
+                        <li>Water</li>
+                        <li>Wine</li>
+                        <li>Beer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--reservation sections-->
+    <section id="reservations" class="py-5 text-center">
+        <div class="container">
+            <h2>Make a reservations</h2>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-4">
+                    <label for="date" class="form-label">Date:</label>
+                    <input type="date" id="date" name="date" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="time" class="form-label">Time:</label>
+                    <input type="time" id="time" name="time"  class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="guests" class="form-label">Number of guests:</label>
+                    <input type="number" id="guests" name="guests" class="form-control" required>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Gallery Section-->
+    <section id="gallery" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="col-md-4 mb-3">
+                <!--Put some images here-->
+            </div>
+        </div>
+    </section>
+    <!--Location and Operational hours-->
+    <section id="location" class="py-5 text-center">
+        <div class="container">
+            <h2>Location & Hours</h2>
+            <p>Banda Street, Nairobi Kenya</p>
+            <p>Open:Mon - Sun 8:00 AM - 5:00PM</p>
+            <div id="map">
+                <!--Embeed a google map-->
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <footer class="bg-dark text-white py-3 text center">
+        <div class="container">
+            <p>&copy; 2024 Sentinel Restaurant. All rights reserved</p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">FaceBook</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Twitter</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
